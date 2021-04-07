@@ -186,6 +186,14 @@ p:last-child{
         text-align: center;
     }
 
+    .header__button_left{
+        left: -2rem;
+    }
+    
+    .header__button_right{
+        right: -2rem;
+    }
+
 }
 /*.header__menu-item:last-child{
     margin-right: 0;
@@ -381,6 +389,24 @@ p:last-child{
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 1024px){
+
+    .whychooseus__container{
+        flex-direction: column;
+    }
+
+    .whychooseus__image{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+    
+    .whychooseus__content{
+        width: 100%;
+    }
+
+}
+
 .form{
     padding: 2rem;
     color: white;
@@ -516,6 +542,43 @@ p:last-child{
 
 .testimonial__author-item:last-child{
     margin-bottom: 0;    
+}
+
+@media screen and (max-width: 1024px){
+
+    .about-us__container{
+        flex-direction: column;
+    }
+
+    .footer__list{
+        flex-direction: row;
+    }
+    
+    .testimonial__container{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .footer__list-item{
+        margin-bottom: 0;
+        margin-right: 1rem;
+    }
+
+    .footer__list-item:last-child{
+        margin-right: 0;
+    }
+
+    .footer__column{
+        margin-bottom: 2rem;
+    }
+
+    .footer__column_s{
+        width: 100%;
+    }
+    
+    .footer__column_m{
+        width: 100%;
+    }
 }
 
 .disable{
