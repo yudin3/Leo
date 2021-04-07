@@ -13,7 +13,7 @@ html{
   @media screen and (min-width: 641px) and (max-width: 1200px){
 
     html{
-        font-size: 56.25%;
+        font-size: 50%;
     }
 
 }
@@ -187,11 +187,11 @@ p:last-child{
     }
 
     .header__button_left{
-        left: -2rem;
+        left: -2.5rem;
     }
     
     .header__button_right{
-        right: -2rem;
+        right: -2.5rem;
     }
 
 }
@@ -272,6 +272,11 @@ p:last-child{
         position: static;
         border-radius: 2rem;
     }
+
+    .banner__image{
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 .products{
@@ -328,7 +333,7 @@ p:last-child{
 @media screen and (max-width: 1024px){
 
     .products__item{
-        padding: 2rem;
+        padding: 1.2rem;
 
     }
 
@@ -497,7 +502,7 @@ p:last-child{
 }
 
 .footer__column_m{
-    width: 35%;
+    width: 30%;
 }
 
 .footer__column:last-child{
