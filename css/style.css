@@ -171,7 +171,7 @@ p:last-child{
     justify-content: space-around;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (max-width: 1024px){
 
     .header__header{
         padding-top: 2.5rem;
@@ -246,7 +246,7 @@ p:last-child{
     border-radius: 2rem;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1024px){
+@media screen and (max-width: 1024px){
     .header__banner{
         grid-template-columns: 100%;
         grid-template-rows: auto;
@@ -317,7 +317,7 @@ p:last-child{
     font-size: 1.6rem;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1024px){
+@media screen and (max-width: 1024px){
 
     .products__item{
         padding: 2rem;
@@ -434,7 +434,7 @@ p:last-child{
     justify-content: space-between;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1024px){
+@media screen and (max-width: 1024px){
     .contact-us__container{
         flex-direction: column;
     }
