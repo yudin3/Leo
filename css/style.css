@@ -1,0 +1,523 @@
+html{
+    font-size: 62.5%;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1440px){
+
+    html{
+        font-size: 62.5%;
+    }
+
+}
+  
+  @media screen and (min-width: 641px) and (max-width: 1200px){
+
+    html{
+        font-size: 56.25%;
+    }
+
+}
+  
+  @media screen and (max-width: 640px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
+
+body{
+   /* font-family:;*/
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited,a:hover,a:active{
+    color: inherit;
+}
+
+.button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+p{
+    margin: 0 0 2rem 0;
+    line-height: 1.4;
+}
+
+p:last-child{
+    margin-bottom: 0;
+}
+
+.title{
+    font-family: "SegoeLight";
+    margin: 0;
+}
+
+@font-face{
+    font-family: "MrsEavesItalic";
+    src: url("../fonts/MrsEavesItalic.ttf");
+}
+
+@font-face{
+    font-family: "Segoe";
+    src: url("../fonts/Segoe.ttf");
+}
+
+
+@font-face{
+    font-family: "UniversLight";
+    src: url("../fonts/UniversLight.ttf");
+}
+
+@font-face{
+    font-family: "SegoeLight";
+    src: url("../fonts/SegoeLight.ttf");
+}
+
+@font-face{
+    font-family: "SegoeSemibold";
+    src: url("../fonts/SegoeSemibold.ttf");
+}
+
+.main-container{
+    box-sizing: border-box;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.header{
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ececec;
+    font-family: "SegoeLight";
+    font-size: 2.2rem;
+    padding-bottom: 3rem;
+    margin-bottom: 5rem;
+}
+
+.header__container{
+    position: relative;
+}
+
+.header__button{
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    padding: 0.5rem 1.3rem;
+}
+
+.switch__button{
+    color: #a3aeb1;
+    background: transparent;
+    border-radius: 3rem;
+    border: 2px solid #a3aeb1;
+}
+
+.header__button_left{
+    top: 50%;
+    left: -4rem;
+    transform: translate(0, -50%);
+}
+
+.header__button_right{
+    top: 50%;
+    right: -4rem;
+    transform: translate(0, -50%);
+}
+
+.section__container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px){
+
+    .section__container{
+        width: 90%;
+    }
+
+}
+
+
+.header__header{
+    padding-top: 5.5rem;
+    grid-template-columns: 20% 60%;
+    grid-template-rows: 7rem;
+    grid-gap: 20%;
+
+    margin-bottom: 6rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .header__header{
+        padding-top: 2.5rem;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-gap: 5rem;
+    
+        margin-bottom: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        text-align: center;
+    }
+
+}
+/*.header__menu-item:last-child{
+    margin-right: 0;
+}*/
+
+.grid-container{
+    display: grid;
+}
+
+.header__logo{
+    font-size: 5rem;
+    font-family: "MrsEavesItalic";
+    color: #a3aeb1;
+}
+
+.header__title{
+    line-height: 0.8;
+}
+
+.header__banner{
+    grid-template-columns: 35% 58%;
+    grid-template-rows: auto;
+    grid-gap: 7%;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    position: relative;
+}
+
+.banner__content{
+    padding-top: 6rem;
+}
+
+.banner__title{
+    font-size: 6rem;
+    font-family: "SegoeSemibold";
+    margin-bottom: 1.5rem;
+    line-height: 0.8;
+}
+
+.banner__text{
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.banner__button{
+    background-color: #206545;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: 1px solid #25322c;
+}
+
+.banner__image{
+    position: relative;
+}
+
+.image-absolute{
+    position: absolute;
+    border-radius: 2rem;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px){
+    .header__banner{
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-gap: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        text-align: center;
+    }
+
+    .banner__content{
+        padding-top: 2rem;
+    }
+
+    .image-absolute{
+        position: static;
+        border-radius: 2rem;
+    }
+}
+
+.products{
+    margin-bottom: 7rem;
+}
+
+.produсts__switchers{
+    display: flex;
+}
+
+.products__item{
+    font-family: "SegoeLight";
+    box-sizing: border-box;
+    padding: 2rem 5.5rem 4rem 5.5rem;
+    width: 25%;
+    text-align: center;
+    color: gray;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.products__item-active{
+    font-family: "SegoeSemibold";
+    border: 1px solid gray;
+    border-bottom: 0;
+    font-weight: bold;
+}
+
+.product__icon{
+    margin-bottom: 1rem;
+}
+
+.products__content{
+    padding-top: 5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.product__image{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.product__title{
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.product__description{
+    font-family: "UniversLight";
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px){
+
+    .products__item{
+        padding: 2rem;
+
+    }
+
+    .products__content{
+        padding-top: 3rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
+    .product__image{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+
+.whychooseus{
+    padding-bottom: 5rem;
+    border-bottom: 1px soled gray;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.whychooseus__image{
+    width: 45%;
+    margin-right: 5%;
+}
+
+.whychooseus__content{
+    width: 50%;
+}
+
+.whychooseus__title{
+    margin-bottom: 4rem;
+    font-size: 4rem;
+}
+
+.whychooseus__list{
+    font-family: "UniversLight";
+    font-size: 2rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+.whychooseus__list-item{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+  
+}
+
+.whychooseus__list-check{
+    margin-right: 1rem;
+}
+
+.whychooseus__list-item:last-child{
+    margin-bottom: 0;
+}
+
+.form{
+    padding: 2rem;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.form__input{
+    padding: 0.5rem;
+}
+
+.form__button{
+    background-color: #444444;
+    color: white;
+    border-radius: 0;
+    padding: 0.5rem;
+    max-width: 11rem;
+}
+
+.form__title{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.form-orange{
+    background-color: #e67624;
+}
+
+.form-blue{
+    background-color: #01d4f3;
+}
+
+.input_m{
+    max-width: 35%;
+}
+
+.input_l{
+    width: 60%;
+}
+
+.contact-us__form{
+    width: 40%;
+}
+
+.form-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px){
+    .contact-us__container{
+        flex-direction: column;
+    }
+
+    .contact-us__form{
+        width: 75%;
+        margin: 0 auto 2rem;
+    }
+
+    
+}
+
+.about-us{
+    background-color: #29292a;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d0d3cd;
+}
+
+.about-us__container{
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+
+.footer{
+    padding-bottom: 5rem;
+}
+
+.footer__column{
+    margin-right: 12%;
+}
+
+.footer__column_s{
+    width: 11%;
+}
+
+.footer__column_m{
+    width: 35%;
+}
+
+.footer__column:last-child{
+    margin: 0;
+}
+
+.footer__title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer__list{
+    flex-direction: column;
+}
+
+.footer__list-item{
+    margin-bottom: 1rem;
+}
+
+.testimonial__container{
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.testimonial__button{
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+}
+
+.testimonial__description{
+    margin-bottom: 1rem;
+}
+
+.testimonial__author{
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.testimonial__author-item{
+    margin-bottom: 0.5rem;
+}
+
+.testimonial__author-item:last-child{
+    margin-bottom: 0;    
+}
+
+.disable{
+    display: none;
+}
